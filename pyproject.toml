@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "task 9 hw"
+version = "0.1.0"
+description = ""
+authors = ["architect2016 <dnepr.life@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.31.0"
+boto3 = "^1.34.82"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
